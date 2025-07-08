@@ -1,0 +1,22 @@
+{
+  "name": "paychat",
+  "version": "1.0.0",
+  "description": "paytel group chat applicaiton",
+  "license": "ISC",
+  "author": "satender kumar",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js",
+    "backend": "index.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "colors": "^1.4.0",
+    "dotenv": "^17.1.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.2",
+    "morgan": "^1.10.0"
+  }
+}
