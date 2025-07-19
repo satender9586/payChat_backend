@@ -46,7 +46,7 @@ const userSchema = new mongoose.Schema(
       type: Boolean,
       default: false,
     },
-    token: {
+    authToken: {
       type: String,
       default: "",
     },
@@ -66,4 +66,5 @@ const userSchema = new mongoose.Schema(
   }
 );
 
-module.exports = mongoose.model("User", userSchema);
+ module.exports = mongoose.model("User", userSchema);
+
