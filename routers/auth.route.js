@@ -11,5 +11,4 @@ routes.get("/authinfo",verifyToken,authInfo)
 routes.get("/userinfo/:id",verifyToken,userInfo)
 routes.post("/refreshtoken",verifyToken,refreshAccessToken)
 
-
 module.exports = routes

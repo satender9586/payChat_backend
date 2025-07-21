@@ -66,7 +66,6 @@ const register = async (req, res) => {
   }
 };
 
-
 //-------------> LOGIN CONTROLLER
 const loggin = async (req, res) => {
   const { email, password } = req.body
@@ -262,10 +261,7 @@ const userInfo = async (req, res) => {
   }
 };
 
-
-
 //-------------> LOGGED OUT CONTROLLER
-
 
 const loggedOut = async (req, res) => {
   try {
@@ -296,7 +292,6 @@ const loggedOut = async (req, res) => {
     });
   }
 };
-
 
 // -------------> REFRESH TOKEN CONTROLLER
 const refreshAccessToken = async (req, res) => {
@@ -358,10 +353,6 @@ const refreshAccessToken = async (req, res) => {
     });
   }
 };
-
-
-
-
 
 
 module.exports = { register, loggin, authInfo, userInfo, loggedOut, refreshAccessToken };
